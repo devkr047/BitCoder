@@ -11,3 +11,11 @@ container.addEventListener('scroll', function () {
         navbar.style.boxShadow = 'none';
     }
 })
+
+
+const side=document.getElementById('side');
+const btn=document.getElementById('btn');
+
+btn.addEventListener('click',function(){
+    side.classList.toggle('active');
+})
