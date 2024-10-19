@@ -18,4 +18,4 @@ const btn=document.getElementById('btn');
 
 btn.addEventListener('click',function(){
     side.classList.toggle('active');
-})
+});
