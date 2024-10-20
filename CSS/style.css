@@ -184,7 +184,7 @@ transition: all 0.2s ease;
 }
 
 .sidebar button{
-position: fixed;
+position: sticky;
 top: 50px;
 left: 50px;
 }
